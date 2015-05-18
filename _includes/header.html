@@ -35,6 +35,14 @@
             ordering:  false,
             info: false
         });
+
+        var table = $('#experiment_list').DataTable();
+
+        $('#experiment_list tbody').on( 'click', 'tr', function () {
+          window.location.replace("/detail.html/#detail");
+          window.location.href = "/detail.html/#detail";
+    } );
+
     } );
     </script>
 

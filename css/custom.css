@@ -1,6 +1,6 @@
 body{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 
@@ -22,10 +22,19 @@ h3{
 	opacity: 0.7;
 }
 
+
 .section{
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
+.btn{
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 5%;
+  background-color: #159957;
+}
+
+.m-top-50{ margin-top: 50px;}
 
 
 #cover {

@@ -105,10 +105,10 @@ table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.o
   background-color: #abb9d3;
 }*/
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
-  background-color: whitesmoke;
+  background-color: #F1F8FF;
 }
 table.dataTable.hover tbody tr:hover.selected, table.dataTable.display tbody tr:hover.selected {
-  background-color: #a9b7d1;
+  background-color: #e3f2ff;
 }
 /*table.dataTable.order-column tbody tr > .sorting_1,
 table.dataTable.order-column tbody tr > .sorting_2,
