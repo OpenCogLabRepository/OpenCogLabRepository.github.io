@@ -7,7 +7,8 @@ layout: default
 
     var dataset = [
     	['experiment_visualcheckboard', 'Visual Checkerboard Stimulation', 'Cameron Craddock', 'VisionEgg', '???'],
-    	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???']
+    	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???'],
+    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', '???', '???']
     ]
 
 
@@ -41,7 +42,7 @@ layout: default
 
 <div class="section">
 
-<div class="col-md-10 col-md-offset-1">
+<div class="col-md-10 col-md-offset-2">
 	<div class="row">
 		
 			<div class="col-md-8">
@@ -55,7 +56,7 @@ layout: default
 		
 	</div>
 
-	<div class="row m-top-50 text-center">
+<!-- 	<div class="row m-top-50 text-center">
 		
 			<div class="col-md-2"> <i class="fa fa-code-fork fa-3x"></i> </div>
 			<div class="col-md-8">
@@ -64,13 +65,14 @@ layout: default
 			</p>
 			
 		</div>
-		</div>
-	</div>
+	</div> -->
+
+</div>
 
 
-	<div class="row text-center m-top-50">
+<!-- 	<div class="row text-center m-top-50">
 		<a href="/share.html" class="btn">Share your own experiment</a>
-	</div>
+	</div> -->
 
 <!-- 	<h2>Available experiments</h2> -->
 
