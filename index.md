@@ -67,7 +67,7 @@ layout: default
 
 
 	<div class="row text-center m-top-50">
-		<a href="#" class="btn">Upload your own experiment</a>
+		<a href="/share.html" class="btn">Share your own experiment</a>
 	</div>
 
 <!-- 	<h2>Available experiments</h2> -->
