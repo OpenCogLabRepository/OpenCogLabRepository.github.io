@@ -6,8 +6,8 @@ layout: default
     $(document).ready( function () {
 
     var dataset = [
-    	['experiment_moraldillema', 'moral dillema task', 'aaa', 'bbb', 'ccc'],
-    	['experiment_test2', 'experiment test 2', '111', '222', '333']
+    	['experiment_visualcheckboard', 'Visual Checkerboard Stimulation', 'Cameron Craddock', 'VisionEgg', '???'],
+    	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???']
     ]
 
 
@@ -41,8 +41,9 @@ layout: default
 
 <div class="section">
 
+<div class="col-md-10 col-md-offset-1">
 	<div class="row">
-		<div class="col-md-10 text-center col-md-offset-1">
+		
 			<div class="col-md-8">
 				<p class="text-justify">
 					Open Cog Lab Repository is a open source initiative for sharing functional MRI experiments.
@@ -51,17 +52,18 @@ layout: default
 				</p>
 			</div>
 			<div class="col-md-2"> <i class="fa fa-file fa-3x"></i></div>
-		</div>
+		
 	</div>
 
 	<div class="row m-top-50 text-center">
-		<div class="col-md-10 ">
+		
 			<div class="col-md-2"> <i class="fa fa-code-fork fa-3x"></i> </div>
 			<div class="col-md-8">
 			<p class="text-justify">
 				Be social and share your own experiments! Help the community lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 			</p>
-			</div>
+			
+		</div>
 		</div>
 	</div>
 
