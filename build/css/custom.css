@@ -35,7 +35,6 @@ i{
 .btn{
   color: rgba(255, 255, 255, 0.99);
   background-color: #159957;
-  padding: 10px;
 }
 
 .btn:hover{
@@ -52,4 +51,12 @@ i{
   background-image: linear-gradient(120deg, #155799, #159957);
   padding-top: 100px;
   padding-bottom: 100px; 
+}
+
+
+
+
+
+.gambi{
+  margin-left: 200px;
 }

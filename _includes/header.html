@@ -8,7 +8,7 @@
 
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
-
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -24,27 +24,11 @@
     <!-- DataTables -->
     <script type="text/javascript" charset="utf8" src="../DataTables-1.10.7/media/js/jquery.dataTables.js"></script>
 
+
     <!-- <script type="text/javascript" charset="utf8" src="../js/jquery-1.11.3.js"></script> -->
     <!-- <script type="text/javascript" charset="utf8" src="../js/custom.js"></script> -->
 
-    <script type="text/javascript">
-        $(document).ready( function () {
-        $('#experiment_list').DataTable({
-            searching: false,
-            paging: false,
-            ordering:  false,
-            info: false
-        });
 
-        var table = $('#experiment_list').DataTable();
-
-        $('#experiment_list tbody').on( 'click', 'tr', function () {
-          window.location.replace("/detail.html/#detail");
-          window.location.href = "/detail.html/#detail";
-    } );
-
-    } );
-    </script>
 
 
 
