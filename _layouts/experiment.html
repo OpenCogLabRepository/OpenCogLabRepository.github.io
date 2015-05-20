@@ -17,18 +17,13 @@
 	<div class="row">
 
 		<div class="col-md-8">
-			<p id="description" class="text-justify">{{ page.description }}</p>
-
+			<p id="description" class="text-justify">{{ content }}</p>
 			<div>
 				<strong>Authors</strong>
 				<span id="authors">{{ page.authors }}</span>
 			</div>
 
-			<div>
-				<strong id="category">#{{page.category}}</strong>
-			</div>
-
-			<a href="#" class="btn m-top-50">Download Experiment</a>
+			<a href="{{ page.repository }}/archive/master.zip" class="btn m-top-50">Download Experiment</a>
 
 		</div>		
 
@@ -41,7 +36,7 @@
 				    </tr>
 			        <tr>
 			            <td><strong>Repository</strong></td>
-			            <td>{{ page.repository }}</td>
+			            <td> <a href="{{ page.repository }}">{{ page.repository }}</a></td>
 			        </tr>
 			        <tr>
 			            <td><strong>Environment</strong></td>

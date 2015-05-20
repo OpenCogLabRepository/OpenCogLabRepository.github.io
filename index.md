@@ -6,9 +6,10 @@ layout: default
     $(document).ready( function () {
 
     var dataset = [
-    	['experiment_visualcheckboard', 'Visual Checkerboard Stimulation', 'Cameron Craddock', 'VisionEgg', '???'],
+    	['experiment_visualcheckboard', 'Visual Checkerboard', 'Cameron Craddock', 'VisionEgg', '???'],
     	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???'],
-    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', '???', '???']
+    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', '???', '???'],
+    	['experiment_moraldillema', 'Moral Dillema', 'Ben Harrison et al', 'PsychoPy', '???']
     ]
 
 
