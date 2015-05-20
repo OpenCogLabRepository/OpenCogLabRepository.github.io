@@ -41,6 +41,8 @@ i{
 }
 .btn:visited{color: rgba(255, 255, 255, 0.99);}
 .btn:active{color: rgba(255, 255, 255, 0.99);}
+.btn:focus{color: rgba(255, 255, 255, 0.99);}
+
 
 .highlight{
   background-color: #f5f5f5;
