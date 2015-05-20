@@ -6,7 +6,7 @@ repository: https://github.com/OpenCogLabRepository/RTfMRI-neurofeedback
 environment: ???
 category: ???
 version: 1.0
-published: 19/05/2015
+published: 2015-05-19
 license: MIT
 dependencies: ???
 ---

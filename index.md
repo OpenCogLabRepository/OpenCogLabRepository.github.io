@@ -1,5 +1,5 @@
 ---
-title: hello
+title: Repository Explorer
 layout: default
 ---
 <script type="text/javascript">
@@ -9,8 +9,8 @@ layout: default
     	['experiment_visualcheckboard', 'Visual Checkerboard', 'Cameron Craddock', 'VisionEgg', '???'],
     	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???'],
     	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', '???', '???'],
-    	['experiment_moraldillema', 'Moral Dillema', 'Ben Harrison et al', 'PsychoPy', '???'],
-    	['experiment_msit', 'The Multi-Source Interference Task', 'Bush, G, Shin, LM ', 'PsychoPy', '???']
+    	['experiment_moraldillema', 'Moral Dillema', 'Cameron Craddock', 'PsychoPy', '???'],
+    	['experiment_msit', 'The Multi-Source Interference Task', 'Cameron Craddock ', 'PsychoPy', '???']
     ]
 
 
@@ -51,6 +51,7 @@ layout: default
 				<p class="text-justify">
 					Open Cog Lab is a repository of openly shared computerized experiments for assessing cognitive function.
 					A variety of tasks for assessing different cognitive functions are available for download.
+					As this is a colaborative repository, feel free to share your own experiments!
 				</p>
 			</div>
 <!-- 			<div class="col-md-2"> <i class="fa fa-share-alt fa-3x"></i></div> -->
@@ -71,9 +72,9 @@ layout: default
 </div>
 
 
-<!-- 	<div class="row text-center m-top-50">
-		<a href="/share.html" class="btn">Share your own experiment</a>
-	</div> -->
+	<div class="row text-center m-top-50">
+		<a href="/share.html" class="btn">Share your experiment</a>
+	</div>
 
 <!-- 	<h2>Available experiments</h2> -->
 

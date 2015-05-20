@@ -6,7 +6,7 @@ repository: https://github.com/OpenCogLabRepository/visual-checkerboard
 environment: VisionEgg
 category: ??
 version: 1.0
-published: 5/19/2015
+published: 2015-05-19
 license: MIT
 dependencies: ???
 ---

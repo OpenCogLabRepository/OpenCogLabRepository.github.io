@@ -1,17 +1,12 @@
 ---
-title: hello
+title: Sharing your experiment
 layout: default
 ---
 
 
 
 <div class="section">
-
-	
-
-
 	<div class="col-md-10 col-md-offset-1 text-justify">
-		<h2>Sharing your experiment</h2>
 
 		<p>For sharing your experiment and putting it in this page, you need to create a simple <span class="highlight">markdown</span> file.
 		This file contains all the data about the experiment that will appear here, organized in an easy computer-reading way.
