@@ -1,7 +1,7 @@
 ---
 title: The Multi-Source Interference Task
 layout: experiment
-authors: Bush, G, Shin, LM
+authors: Cameron Craddock
 repository: https://github.com/ccraddock/msit
 environment: PsychoPy
 category: ??
