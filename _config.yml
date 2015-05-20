@@ -12,7 +12,8 @@ encoding:    utf-8
 future:      true
 show_drafts: nil
 limit_posts: 1
-highlighter: pygments
+#highlighter: pygments
+highlighter: NULL
 
 relative_permalinks: true
 
