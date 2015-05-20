@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="../DataTables-1.10.7/media/css/jquery.dataTables.css">
+      
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="../DataTables-1.10.7/media/js/jquery.js"></script>
+      
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="../DataTables-1.10.7/media/js/jquery.dataTables.js"></script>
+
+
+    <!-- <script type="text/javascript" charset="utf8" src="../js/jquery-1.11.3.js"></script> -->
+    <!-- <script type="text/javascript" charset="utf8" src="../js/custom.js"></script> -->
+
+
+
+
+
+  </head>
+
+  <body>
+
+  <div id="cover">
+    <h1 class="project-name">OpenCogLabRepository</h1>
+    <!-- <h3 class="project-tagline">A repository of openly shared computerized experiments for assessing cognitive function.</h3> -->
+  </div>
+
+    <div class="container">
+<script type="text/javascript">
+	$(document).ready( function () {
+
+		$('#property_list').DataTable({
+	        searching: false,
+	        paging: false,
+	        ordering:  false,
+	        info: false
+    	});
+
+	} );
+</script>
+<div id="detail" class="section">
+	<h2 id="title">The Multi-Source Interference Task</h2>
+
+	<div class="row">
+
+		<div class="col-md-8">
+			<p id="description" class="text-justify"><p>This PsychoPy implementation of the Multi-source Interference Task (MSIT) conforms to the implementation described in:</p>
+
+<p>Bush, G, Shin, LM (2006). The Multi-Source Interference Task: an fMRI task that reliably activates the cingulo-frontal-parietal cognitive/attention network. Nat Protoc, 1, 1:308-13. PMID: 17406250.</p>
+
+<p>To use this task you must install PsychoPy which can be installed as either a python library, or standalone.</p>
+
+<p>The code can be executed by loading and running “MSIT.py” in PsychoPy. The task can work with a keyboard or a Lumina button box. It can be started by either pressing any key on the keyboard or by a trigger sent through the Lumina box (for use during an fMRI).</p>
+</p>
+			<div>
+				<strong>Authors</strong>
+				<span id="authors">Bush, G, Shin, LM</span>
+			</div>
+
+			<a href="https://github.com/ccraddock/msit/archive/master.zip" class="btn m-top-50">Download Experiment</a>
+
+		</div>		
+
+		<div class="col-md-4">
+			<table id="property_list" class="display" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+			            <td><strong>Package</strong></td>
+			            <td>The Multi-Source Interference Task</td>
+				    </tr>
+			        <tr>
+			            <td><strong>Repository</strong></td>
+			            <td> <a href="https://github.com/ccraddock/msit">https://github.com/ccraddock/msit</a></td>
+			        </tr>
+			        <tr>
+			            <td><strong>Environment</strong></td>
+			            <td>PsychoPy</td>
+				    </tr>
+			        <tr>
+			            <td><strong>Category</strong></td>
+			            <td>??</td>
+			        </tr>
+			        <tr>
+			            <td><strong>Version</strong></td>
+			            <td>1.0</td>
+			        </tr>
+			        <tr>
+			            <td><strong>Published</strong></td>
+			            <td>19/05/2015</td>
+			        </tr>
+			        <tr>
+			            <td><strong>License</strong></td>
+			            <td>MIT</td>
+			        </tr>
+			        <tr>
+			            <td><strong>Dependencies</strong></td>
+			            <td>???</td>
+			        </tr>
+			     
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+
+
+</div>
+
+	</div>
+	<footer>
+		
+	</footer>
+  </body>
+</html>
