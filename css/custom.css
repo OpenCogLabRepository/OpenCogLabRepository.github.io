@@ -1,12 +1,14 @@
 body{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
+  color: #6f6f6f;
 }
 
 h1 {
   margin: 0px;
   font-size: 24px;
   line-height: 1.5;
+  color: #6f6f6f;
 }
 
 h2{
@@ -30,18 +32,17 @@ i{
 }
 
 .btn{
-  color: rgba(255, 255, 255, 0.99);
-  background-color: #159957;
+  color: #6f6f6f;
+  background-color: #d0d5d9;
   padding: 10px;
-  font-weight: bold;
 }
 
 .btn:hover{
   color: rgba(255, 255, 255, 0.7);
 }
-.btn:visited{color: rgba(255, 255, 255, 0.99);}
-.btn:active{color: rgba(255, 255, 255, 0.99);}
-.btn:focus{color: rgba(255, 255, 255, 0.99);}
+.btn:visited{color: #6f6f6f;}
+.btn:active{color: #6f6f6f;}
+.btn:focus{color: #6f6f6f;}
 
 
 .highlight{
@@ -57,7 +58,7 @@ i{
 #cover {
   color: #fff;
   text-align: center;
-  background-color: #159957;
+  background-color: #d0d5d9;
   padding-top: 10px;
   padding-bottom: 10px; 
 }

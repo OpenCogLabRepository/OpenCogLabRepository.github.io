@@ -1,19 +1,19 @@
 body{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 13px;
+  color: #6f6f6f;
 }
-
 
 h1 {
   margin: 0px;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 24px;
   line-height: 1.5;
+  color: #6f6f6f;
 }
 
 h2{
 	padding-bottom: 50px;
-	font-size: 30px;
+	font-size: 24px;
 
 }
 
@@ -26,37 +26,39 @@ i{
   color: #159957;
 }
 
-
 .section{
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .btn{
-  color: rgba(255, 255, 255, 0.99);
-  background-color: #159957;
+  color: #6f6f6f;
+  background-color: #d0d5d9;
+  padding: 10px;
 }
 
 .btn:hover{
   color: rgba(255, 255, 255, 0.7);
 }
+.btn:visited{color: #6f6f6f;}
+.btn:active{color: #6f6f6f;}
+.btn:focus{color: #6f6f6f;}
+
+
+.highlight{
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+}
 
 .m-top-50{ margin-top: 50px;}
-.m-top-150{ margin-top: 150px;}
+.m-bot-50{margin-bottom: 50px;}
 
 #cover {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
-  padding-top: 100px;
-  padding-bottom: 100px; 
-}
-
-
-
-
-
-.gambi{
-  margin-left: 200px;
+  background-color: #d0d5d9;
+  padding-top: 10px;
+  padding-bottom: 10px; 
 }
