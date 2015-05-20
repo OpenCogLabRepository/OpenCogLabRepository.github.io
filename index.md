@@ -42,17 +42,16 @@ layout: default
 
 <div class="section">
 
-<div class="col-md-10 col-md-offset-2">
+<div class="col-md-10 col-md-offset-2 m-bot-50">
 	<div class="row">
 		
 			<div class="col-md-8">
 				<p class="text-justify">
-					Open Cog Lab Repository is a open source initiative for sharing functional MRI experiments.
-					You have access to experiments created by neuroscience laboratories.
-					A variety of tasks for assessing different cognitive functions is available for download.
+					Open Cog Lab is a repository of openly shared computerized experiments for assessing cognitive function.
+					A variety of tasks for assessing different cognitive functions are available for download.
 				</p>
 			</div>
-			<div class="col-md-2"> <i class="fa fa-file fa-3x"></i></div>
+<!-- 			<div class="col-md-2"> <i class="fa fa-share-alt fa-3x"></i></div> -->
 		
 	</div>
 
@@ -76,7 +75,7 @@ layout: default
 
 <!-- 	<h2>Available experiments</h2> -->
 
-	<div class="m-top-150">
+	<div class="m-top-50">
 		<table id="experiment_list" class="display " cellspacing="0" width="100%">
 	
 		</table>

@@ -1,12 +1,11 @@
 body{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 13px;
 }
 
 h1 {
   margin: 0px;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 24px;
   line-height: 1.5;
 }
 
@@ -26,8 +25,8 @@ i{
 }
 
 .section{
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .btn{
@@ -49,13 +48,12 @@ i{
 }
 
 .m-top-50{ margin-top: 50px;}
-.m-top-150{ margin-top: 150px;}
+.m-bot-50{margin-bottom: 50px;}
 
 #cover {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
-  padding-top: 100px;
-  padding-bottom: 100px; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
 }
