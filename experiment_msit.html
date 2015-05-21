@@ -36,12 +36,43 @@
 
   <body>
 
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">OpenCogLab Repository</a>
+      </div>
+
+      <div class="">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/index.html">Home</a></li>
+          <li><a href="/share.html">Share</a></li>
+        </ul>
+      </div>
+  </div>
+  </div>
+</nav>
+
+
+
+
+
   <div id="cover">
-    <h1 class="project-name">OpenCogLabRepository</h1>
+    <div class="container">
+
+      <h1>The Multi-Source Interference Task</h1>
+
+    </div>
     <!-- <h3 class="project-tagline">A repository of openly shared computerized experiments for assessing cognitive function.</h3> -->
   </div>
 
     <div class="container">
+
+<link rel="stylesheet" href="bib-publication-list/bib-publication-list.css"/>
+
+
 <script type="text/javascript">
 	$(document).ready( function () {
 
@@ -54,13 +85,14 @@
 
 	} );
 </script>
-<div id="detail" class="section">
-	<h2 id="title">The Multi-Source Interference Task</h2>
 
-	<div class="row">
-
-		<div class="col-md-8">
-			<p id="description" class="text-justify"><p>This PsychoPy implementation of the Multi-source Interference Task (MSIT) conforms to the implementation described in:</p>
+<div class="section">
+	<div class="container">
+		<div class="row m-bot-50">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-8">
+						<p id="description" class="text-justify"><p>This PsychoPy implementation of the Multi-source Interference Task (MSIT) conforms to the implementation described in:</p>
 
 <p>Bush, G, Shin, LM (2006). The Multi-Source Interference Task: an fMRI task that reliably activates the cingulo-frontal-parietal cognitive/attention network. Nat Protoc, 1, 1:308-13. PMID: 17406250.</p>
 
@@ -68,59 +100,64 @@
 
 <p>The code can be executed by loading and running “MSIT.py” in PsychoPy. The task can work with a keyboard or a Lumina button box. It can be started by either pressing any key on the keyboard or by a trigger sent through the Lumina box (for use during an fMRI).</p>
 </p>
-			<div>
-				<strong>Authors</strong>
-				<span id="authors">Cameron Craddock</span>
+					</div>
+					<div class="col-md-2">
+						<img src="https://avatars2.githubusercontent.com/u/10687121?v=3&s=200" width="200px">
+					</div>
+				</div>
+				<div>
+					<strong>Authors</strong>
+					<span id="authors">Cameron Craddock</span>
+				</div>
+				<a href="https://github.com/ccraddock/msit/archive/master.zip" class="btn m-top-50">Download Experiment</a>
+			</div>		
+
+			<div class="col-md-4">
+				<table id="property_list" class="display" cellspacing="0" width="200px">
+					<tbody>
+						<tr>
+				            <td><strong>Package</strong></td>
+				            <td>The Multi-Source Interference Task</td>
+					    </tr>
+				        <tr>
+				            <td><strong>Repository</strong></td>
+				            <td> <a href="https://github.com/ccraddock/msit">https://github.com/ccraddock/msit</a></td>
+				        </tr>
+				        <tr>
+				            <td><strong>Environment</strong></td>
+				            <td>PsychoPy</td>
+					    </tr>
+				        <tr>
+				            <td><strong>Category</strong></td>
+				            <td>??</td>
+				        </tr>
+				        <tr>
+				            <td><strong>Version</strong></td>
+				            <td>1.0</td>
+				        </tr>
+				        <tr>
+				            <td><strong>Published</strong></td>
+				            <td>2015-05-19</td>
+				        </tr>
+				        <tr>
+				            <td><strong>License</strong></td>
+				            <td>MIT</td>
+				        </tr>
+				        <tr>
+				            <td><strong>Dependencies</strong></td>
+				            <td>???</td>
+				        </tr>
+					</tbody>
+				</table>
 			</div>
-
-			<a href="https://github.com/ccraddock/msit/archive/master.zip" class="btn m-top-50">Download Experiment</a>
-
-		</div>		
-
-		<div class="col-md-4">
-			<table id="property_list" class="display" cellspacing="0" width="100%">
-				<tbody>
-					<tr>
-			            <td><strong>Package</strong></td>
-			            <td>The Multi-Source Interference Task</td>
-				    </tr>
-			        <tr>
-			            <td><strong>Repository</strong></td>
-			            <td> <a href="https://github.com/ccraddock/msit">https://github.com/ccraddock/msit</a></td>
-			        </tr>
-			        <tr>
-			            <td><strong>Environment</strong></td>
-			            <td>PsychoPy</td>
-				    </tr>
-			        <tr>
-			            <td><strong>Category</strong></td>
-			            <td>??</td>
-			        </tr>
-			        <tr>
-			            <td><strong>Version</strong></td>
-			            <td>1.0</td>
-			        </tr>
-			        <tr>
-			            <td><strong>Published</strong></td>
-			            <td>19/05/2015</td>
-			        </tr>
-			        <tr>
-			            <td><strong>License</strong></td>
-			            <td>MIT</td>
-			        </tr>
-			        <tr>
-			            <td><strong>Dependencies</strong></td>
-			            <td>???</td>
-			        </tr>
-			     
-				</tbody>
-			</table>
 		</div>
-
+		<table id="pubTable" class="display"></table>
 	</div>
-
-
 </div>
+
+
+
+
 
 	</div>
 	<footer>
@@ -128,3 +165,11 @@
 	</footer>
   </body>
 </html>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="bib-publication-list/build/bib-list.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		bibtexify("adhd200_pubs.bib", "pubTable", {'visualization': false, searching: false});
+	});
+</script>

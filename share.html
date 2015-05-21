@@ -36,47 +36,91 @@
 
   <body>
 
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">OpenCogLab Repository</a>
+      </div>
+
+      <div class="">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/index.html">Home</a></li>
+          <li><a href="/share.html">Share</a></li>
+        </ul>
+      </div>
+  </div>
+  </div>
+</nav>
+
+
+
+
+
   <div id="cover">
-    <h1 class="project-name">OpenCogLabRepository</h1>
+    <div class="container">
+
+      <h1>Sharing your experiment</h1>
+
+    </div>
     <!-- <h3 class="project-tagline">A repository of openly shared computerized experiments for assessing cognitive function.</h3> -->
   </div>
 
     <div class="container">
 <div class="section">
+	<div class="contaiiner text-justify">
 
-	
-
-
-	<div class="col-md-10 col-md-offset-1 text-justify">
-		<h2>Sharing your experiment</h2>
-
-		<p>For sharing your experiment and putting it in this page, you need to create a simple <span class="highlight">markdown</span> file.
+		<p>For sharing your experiment and putting it in this page, you need to create a simple <a href="https://guides.github.com/features/mastering-markdown/">markdown file</a>.
 		This file contains all the data about the experiment that will appear here, organized in an easy computer-reading way.
 		If you aren't familiar with markdown files, we provided an example below.
 		</p>
 
-		<p>
-			The file shoulld contain the relevant information about the experiment, namely: <span class="highlight">title</span> , <span class="highlight">description</span> , <span class="highlight">authors</span>, <span class="highlight">repository</span>, <span class="highlight">category</span>, <span class="highlight">version</span>, <span class="highlight">published</span>, <span class="highlight">license</span> and <span class="highlight">dependencies</span>. The <span class="highlight">layout</span> attribute and the <span class="highlight">---</span> in the begging and in the end of the file are for internal use, don't forget them!
-		</p>
+		<p>The file should contain the relevant information about the experiment, namely:</p>
 
-		<p>Notice that the file name should be in the format <span class="highlight">experiment_experimentname.md</span>.</p>
+			<ul class="list-unstyled">
+				<li><span class="label label-default">title</span></li>
+				<li><span class="label label-default">authors</span> (who created the script in the repository)</li>
+				<li><span class="label label-default">repository</span> (the open repository where the experiment scripts are, we recomend using a GitHub repository)</li>
+				<li><span class="label label-default">environment</span> (library used for runing the script, such as <a href="http://visionegg.org/">VisionEgg</a> or <a href="http://www.psychopy.org/">PsychoPy)</a> </li>
+				<li><span class="label label-default">category</span></li>
+				<li><span class="label label-default">version</span> (if you don't know the version, write 1.0)</li>
+				<li><span class="label label-default">published</span> (date the experiment was published in <a href="http://www.iso.org/iso/home/standards/iso8601.htm">ISO format</a>, YYYY-MM-DD)</li>
+				<li><span class="label label-default">license</span></li>
+				<li><span class="label label-default">dependencies</span> (any aditional library necessary to run the experiment)</li>
+				<li><span class="label label-default">imgurl</span> (url of image that appears with the experiment descrioption. If you don't have one, use  <a href="https://avatars2.githubusercontent.com/u/10687121?v=3&amp;s=200">this repository image</a>)</li>
+				<li><span class="label label-default">bibtex</span> (orl of <a href="http://www.bibtex.org/">bibtex</a> file containg all publications using the experiment)</li>
+				<li><span class="label label-default">description</span> (short description about your experiment)</li>
+			</ul>
+
+		<br />
+		<p>Notice that the file name should be in the format <span class="label label-default">experiment_experimentname.md</span>.</p>
+
+		<p>Danger! The <span class="label label-danger">layout</span> attribute and the <span class="label label-danger">---</span> in the begging and in the end of the file are for internal use, don't forget them!</p>
 
 		
 
+		
 
-<div class="highlight"><pre><code class="language-markdown" data-lang="markdown">---
-title: Test 2 Task
+<div>
+  <pre><code class="markdown">---
+title: Example Task
 layout: experiment
-description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis.
 authors: Danny
-repository: http://sharinghappiness.github.io
-environment: python and stuff
-category: cat pictures
+repository: https://github.com/OpenCogLabRepository/example-task
+environment: VisionEgg
+category: Motor Task
 version: 1.4
-published: 10/02/2015
+published: 2015-05-19
 license: MIT
 dependencies: none
----</code></pre></div>
+imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&amp;s=200
+bibtex: https://github.com/OpenCogLabRepository/example-task/cites.bib
+---
+
+This is a short description about the experiment.</code></pre>
+</div>
 
 
 		
