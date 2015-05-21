@@ -44,43 +44,38 @@ layout: default
 
 <div class="section">
 
-<div class="col-md-10 col-md-offset-2 m-bot-50">
-	<div class="row">
+	<div class="container">
 		
-			<div class="col-md-8">
-				<p class="text-justify">
-					Open Cog Lab is a repository of openly shared computerized experiments for assessing cognitive function.
-					A variety of tasks for assessing different cognitive functions are available for download.
-					As this is a colaborative repository, feel free to share your own experiments!
-				</p>
-			</div>
-<!-- 			<div class="col-md-2"> <i class="fa fa-share-alt fa-3x"></i></div> -->
-		
-	</div>
+		<p class="text-justify">
+			Open Cog Lab is a repository of openly shared computerized experiments for assessing cognitive function.
+			A variety of tasks for assessing different cognitive functions are available for download.
+			As this is a colaborative repository, feel free to share your own experiments!
+		</p>
 
-<!-- 	<div class="row m-top-50 text-center">
-		
-			<div class="col-md-2"> <i class="fa fa-code-fork fa-3x"></i> </div>
-			<div class="col-md-8">
-			<p class="text-justify">
-				Be social and share your own experiments! Help the community lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-			</p>
+	<!-- 			<div class="col-md-2"> <i class="fa fa-share-alt fa-3x"></i></div> -->
 			
+
+	<!-- 	<div class="row m-top-50 text-center">
+			
+				<div class="col-md-2"> <i class="fa fa-code-fork fa-3x"></i> </div>
+				<div class="col-md-8">
+				<p class="text-justify">
+					Be social and share your own experiments! Help the community lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+				
+			</div>
+		</div> -->
+
+
+
+		<div class="row text-center m-top-50">
+			<a href="/share.html" class="btn">Share your experiment</a>
 		</div>
-	</div> -->
 
-</div>
+	<!-- 	<h2>Available experiments</h2> -->
 
-
-	<div class="row text-center m-top-50">
-		<a href="/share.html" class="btn">Share your experiment</a>
-	</div>
-
-<!-- 	<h2>Available experiments</h2> -->
-
-	<div class="m-top-50">
-		<table id="experiment_list" class="display " cellspacing="0" width="100%">
-	
-		</table>
+		<div class="m-top-50">
+			<table id="experiment_list" class="display " cellspacing="0" width="100%"></table>
+		</div>
 	</div>
 </div>
