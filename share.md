@@ -8,32 +8,51 @@ layout: default
 <div class="section">
 	<div class="contaiiner text-justify">
 
-		<p>For sharing your experiment and putting it in this page, you need to create a simple <span class="label label-default">markdown</span> file.
+		<p>For sharing your experiment and putting it in this page, you need to create a simple <a href="https://guides.github.com/features/mastering-markdown/">markdown file</a>.
 		This file contains all the data about the experiment that will appear here, organized in an easy computer-reading way.
 		If you aren't familiar with markdown files, we provided an example below.
 		</p>
 
-		<p>
-			The file shoulld contain the relevant information about the experiment, namely: <span class="label label-default">title</span> , <span class="label label-default">description</span> , <span class="label label-default">authors</span>, <span class="label label-default">repository</span>, <span class="label label-default">category</span>, <span class="label label-default">version</span>, <span class="label label-default">published</span>, <span class="label label-default">license</span> and <span class="label label-default">dependencies</span>. The <span class="label label-default">layout</span> attribute and the <span class="label label-default">---</span> in the begging and in the end of the file are for internal use, don't forget them!
-		</p>
+		<p>The file should contain the relevant information about the experiment, namely:</p>
 
+			<ul class="list-unstyled">
+				<li><span class="label label-default">title</span></li>
+				<li><span class="label label-default">description</span> (short description about your experiment)</li>
+				<li><span class="label label-default">authors</span> (who created the script in the repository)</li>
+				<li><span class="label label-default">repository</span> (the open repository where the experiment scripts are, we recomend using a GitHub repository)</li>
+				<li><span class="label label-default">environment</span> (library used for runing the script, such as <a href="http://visionegg.org/">VisionEgg</a> or <a href="http://www.psychopy.org/">PsychoPy)</a> </li>
+				<li><span class="label label-default">category</span></li>
+				<li><span class="label label-default">version</span> (if you don't know the version, write 1.0)</li>
+				<li><span class="label label-default">published</span> (date the experiment was published in <a href="http://www.iso.org/iso/home/standards/iso8601.htm">ISO format</a>, YYYY-MM-DD)</li>
+				<li><span class="label label-default">license</span></li>
+				<li><span class="label label-default">dependencies</span> (any aditional library necessary to run the experiment)</li>
+				<li><span class="label label-default">imgurl</span> (image that appears with the experiment descrioption. If you don't have one, use  <a href="https://avatars2.githubusercontent.com/u/10687121?v=3&s=200">this repository image</a>)</li>
+			</ul>
+
+		<br/>
 		<p>Notice that the file name should be in the format <span class="label label-default">experiment_experimentname.md</span>.</p>
+
+		<p>Danger! The <span class="label label-danger">layout</span> attribute and the <span class="label label-danger">---</span> in the begging and in the end of the file are for internal use, don't forget them!</p>
+
+		
 
 		
 
 {% highlight markdown %}
 ---
-title: Test 2 Task
+title: Example Task
 layout: experiment
-description: Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis.
+description: This is a short description about the experiment.
 authors: Danny
-repository: http://sharinghappiness.github.io
-environment: python and stuff
-category: cat pictures
+repository: https://github.com/OpenCogLabRepository/example-task
+environment: VisionEgg
+category: Motor Task
 version: 1.4
-published: 10/02/2015
+published: 2015-05-19
 license: MIT
 dependencies: none
+imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
+
 ---
 {% endhighlight %}
 
