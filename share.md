@@ -17,7 +17,6 @@ layout: default
 
 			<ul class="list-unstyled">
 				<li><span class="label label-default">title</span></li>
-				<li><span class="label label-default">description</span> (short description about your experiment)</li>
 				<li><span class="label label-default">authors</span> (who created the script in the repository)</li>
 				<li><span class="label label-default">repository</span> (the open repository where the experiment scripts are, we recomend using a GitHub repository)</li>
 				<li><span class="label label-default">environment</span> (library used for runing the script, such as <a href="http://visionegg.org/">VisionEgg</a> or <a href="http://www.psychopy.org/">PsychoPy)</a> </li>
@@ -26,7 +25,9 @@ layout: default
 				<li><span class="label label-default">published</span> (date the experiment was published in <a href="http://www.iso.org/iso/home/standards/iso8601.htm">ISO format</a>, YYYY-MM-DD)</li>
 				<li><span class="label label-default">license</span></li>
 				<li><span class="label label-default">dependencies</span> (any aditional library necessary to run the experiment)</li>
-				<li><span class="label label-default">imgurl</span> (image that appears with the experiment descrioption. If you don't have one, use  <a href="https://avatars2.githubusercontent.com/u/10687121?v=3&s=200">this repository image</a>)</li>
+				<li><span class="label label-default">imgurl</span> (url of image that appears with the experiment descrioption. If you don't have one, use  <a href="https://avatars2.githubusercontent.com/u/10687121?v=3&s=200">this repository image</a>)</li>
+				<li><span class="label label-default">bibtex</span> (orl of <a href="http://www.bibtex.org/">bibtex</a> file containg all publications using the experiment)</li>
+				<li><span class="label label-default">description</span> (short description about your experiment)</li>
 			</ul>
 
 		<br/>
@@ -42,7 +43,6 @@ layout: default
 ---
 title: Example Task
 layout: experiment
-description: This is a short description about the experiment.
 authors: Danny
 repository: https://github.com/OpenCogLabRepository/example-task
 environment: VisionEgg
@@ -52,8 +52,10 @@ published: 2015-05-19
 license: MIT
 dependencies: none
 imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
-
+bibtex: https://github.com/OpenCogLabRepository/example-task/cites.bib
 ---
+
+This is a short description about the experiment.
 {% endhighlight %}
 
 		
