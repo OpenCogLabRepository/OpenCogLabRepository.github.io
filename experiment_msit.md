@@ -10,6 +10,7 @@ published: 2015-05-19
 license: MIT
 dependencies: ???
 imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
+bibtex: adhd200_pubs.bib
 ---
 This PsychoPy implementation of the Multi-source Interference Task (MSIT) conforms to the implementation described in:
 

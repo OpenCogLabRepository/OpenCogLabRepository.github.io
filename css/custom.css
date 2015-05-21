@@ -33,20 +33,10 @@ h3{
   padding: 10px;
 }
 
-.btn:hover{
-  color: rgba(255, 255, 255, 0.7);
-}
+.btn:hover{ color: rgba(255, 255, 255, 0.7);}
 .btn:visited{color: #6f6f6f;}
 .btn:active{color: #6f6f6f;}
 .btn:focus{color: #6f6f6f;}
-
-
-.highlight{
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 2px;
-}
 
 .m-top-50{ margin-top: 50px;}
 .m-bot-50{margin-bottom: 50px;}
@@ -59,4 +49,9 @@ h3{
   margin-top: -20px;
   box-shadow: inset 1px 3px 1px -2px #C9CED2;
   border-top: 1px solid #B4BABD;
+}
+
+
+#pubTable_filter{
+  display: none;
 }

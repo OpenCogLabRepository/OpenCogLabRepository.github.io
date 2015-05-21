@@ -1,4 +1,8 @@
 {% include header.html %}
+
+<link rel="stylesheet" href="bib-publication-list/bib-publication-list.css"/>
+
+
 <script type="text/javascript">
 	$(document).ready( function () {
 
@@ -11,71 +15,79 @@
 
 	} );
 </script>
-<div id="detail" class="section">
-	
-	<div class="row">
 
-		<div class="col-md-8">
-			<div class="row">
-				<div class="col-md-8">
-					<p id="description" class="text-justify">{{ content }}</p>
+<div class="section">
+	<div class="container">
+		<div class="row m-bot-50">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-8">
+						<p id="description" class="text-justify">{{ content }}</p>
+					</div>
+					<div class="col-md-2">
+						<img src="{{page.imgurl}}" width="200px">
+					</div>
 				</div>
-				<div class="col-md-2">
-					<img src="{{page.imgurl}}" width="200px">
+				<div>
+					<strong>Authors</strong>
+					<span id="authors">{{ page.authors }}</span>
 				</div>
+				<a href="{{ page.repository }}/archive/master.zip" class="btn m-top-50">Download Experiment</a>
+			</div>		
+
+			<div class="col-md-4">
+				<table id="property_list" class="display" cellspacing="0" width="100%">
+					<tbody>
+						<tr>
+				            <td><strong>Package</strong></td>
+				            <td>{{ page.title }}</td>
+					    </tr>
+				        <tr>
+				            <td><strong>Repository</strong></td>
+				            <td> <a href="{{ page.repository }}">{{ page.repository }}</a></td>
+				        </tr>
+				        <tr>
+				            <td><strong>Environment</strong></td>
+				            <td>{{ page.environment }}</td>
+					    </tr>
+				        <tr>
+				            <td><strong>Category</strong></td>
+				            <td>{{ page.category }}</td>
+				        </tr>
+				        <tr>
+				            <td><strong>Version</strong></td>
+				            <td>{{ page.version }}</td>
+				        </tr>
+				        <tr>
+				            <td><strong>Published</strong></td>
+				            <td>{{ page.published }}</td>
+				        </tr>
+				        <tr>
+				            <td><strong>License</strong></td>
+				            <td>{{ page.license }}</td>
+				        </tr>
+				        <tr>
+				            <td><strong>Dependencies</strong></td>
+				            <td>{{ page.dependencies }}</td>
+				        </tr>
+					</tbody>
+				</table>
 			</div>
-			<div>
-				<strong>Authors</strong>
-				<span id="authors">{{ page.authors }}</span>
-			</div>
-
-			<a href="{{ page.repository }}/archive/master.zip" class="btn m-top-50">Download Experiment</a>
-
-		</div>		
-
-		<div class="col-md-4">
-			<table id="property_list" class="display" cellspacing="0" width="100%">
-				<tbody>
-					<tr>
-			            <td><strong>Package</strong></td>
-			            <td>{{ page.title }}</td>
-				    </tr>
-			        <tr>
-			            <td><strong>Repository</strong></td>
-			            <td> <a href="{{ page.repository }}">{{ page.repository }}</a></td>
-			        </tr>
-			        <tr>
-			            <td><strong>Environment</strong></td>
-			            <td>{{ page.environment }}</td>
-				    </tr>
-			        <tr>
-			            <td><strong>Category</strong></td>
-			            <td>{{ page.category }}</td>
-			        </tr>
-			        <tr>
-			            <td><strong>Version</strong></td>
-			            <td>{{ page.version }}</td>
-			        </tr>
-			        <tr>
-			            <td><strong>Published</strong></td>
-			            <td>{{ page.published }}</td>
-			        </tr>
-			        <tr>
-			            <td><strong>License</strong></td>
-			            <td>{{ page.license }}</td>
-			        </tr>
-			        <tr>
-			            <td><strong>Dependencies</strong></td>
-			            <td>{{ page.dependencies }}</td>
-			        </tr>
-			     
-				</tbody>
-			</table>
 		</div>
-
+		<table id="pubTable" class="display"></table>
 	</div>
-
-
 </div>
 
+
+
+
+
 {% include footer.html %}
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="bib-publication-list/build/bib-list.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		bibtexify("{{ page.bibtex }}", "pubTable", {'visualization': false, searching: false});
+	});
+</script>
