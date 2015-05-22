@@ -11,6 +11,7 @@ license: MIT
 dependencies: ???
 imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
 bibtex: adhd200_pubs.bib
+download: https://github.com/OpenCogLabRepository/moral-dillema/archive/master.zip
 ---
 On the day of the experiment before scanning, verify that participants
 can remember each of the individual vignettes. For the nondilemma condition, tell participants to simply recall the correct outcome of each scenario when voice prompted for a “yes/no” response by pressing the buttons either with their index finger (yes) or middle fingers (no). 

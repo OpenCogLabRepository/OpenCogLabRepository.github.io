@@ -26,8 +26,10 @@ layout: default
 				<li><span class="label label-default">license</span></li>
 				<li><span class="label label-default">dependencies</span> (any aditional library necessary to run the experiment)</li>
 				<li><span class="label label-default">imgurl</span> (url of image that appears with the experiment descrioption. If you don't have one, use  <a href="https://avatars2.githubusercontent.com/u/10687121?v=3&s=200">this repository image</a>)</li>
-				<li><span class="label label-default">bibtex</span> (orl of <a href="http://www.bibtex.org/">bibtex</a> file containg all publications using the experiment)</li>
+				<li><span class="label label-default">bibtex</span> (url of <a href="http://www.bibtex.org/">bibtex</a> file containg all publications using the experiment)</li>
+				<li><span class="label label-default">download</span> (url for downloading the repository)</li>
 				<li><span class="label label-default">description</span> (short description about your experiment)</li>
+
 			</ul>
 
 		<br/>
@@ -53,6 +55,7 @@ license: MIT
 dependencies: none
 imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
 bibtex: https://github.com/OpenCogLabRepository/example-task/cites.bib
+download: https://github.com/OpenCogLabRepository/example-task/archive/master.zip
 ---
 
 This is a short description about the experiment.
@@ -60,7 +63,7 @@ This is a short description about the experiment.
 
 		
 
-		<p class="m-top-50">Please email this file for <a href="mailto:Cameron.Craddock@childmind.org">Cameron.Craddock@childmind.org</a> and we'll upload your file as soon as we can.</p>
+		<p class="m-top-50">Please email this file for <a href="mailto:cameron.craddock@childmind.org">cameron.craddock@childmind.org</a> and we'll upload your file as soon as we can.</p>
 
 	</div>
 </div>
