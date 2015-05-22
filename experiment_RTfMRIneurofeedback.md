@@ -4,7 +4,7 @@ layout: experiment
 authors: Cameron Craddock
 repository: https://github.com/OpenCogLabRepository/RTfMRI-neurofeedback
 environment: VisionEgg
-category: modulation of default mode network, neurofeedback, 
+category: modulation of DMN, neurofeedback
 version: 1.0
 published: 2013
 license: MIT

@@ -8,7 +8,7 @@ layout: default
     var dataset = [
     	['experiment_visualcheckboard', 'Visual Checkerboard', 'Cameron Craddock', 'VisionEgg', '???'],
     	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???'],
-    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', '???', '???'],
+    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', 'VisionEgg', 'Modulation of DMN, Neurofeedback'],
     	['experiment_moraldillema', 'Moral Dillema', 'Cameron Craddock', 'PsychoPy', '???'],
     	['experiment_msit', 'The Multi-Source Interference Task', 'Cameron Craddock ', 'PsychoPy', '???']
     ]
