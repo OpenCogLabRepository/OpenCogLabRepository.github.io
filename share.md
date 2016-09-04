@@ -8,6 +8,8 @@ layout: default
 <div class="section">
 	<div class="contaiiner text-justify">
 
+        <p>Before you begin, we encourage you to archive your project in the <a href="https://zenodo.org/collection/user-opencoglabrepository">Zenodo OpenCogLab Repository Community</a> to receive a citable DOI.</p>
+
 		<p>For sharing your experiment and putting it in this page, you need to create a simple <a href="https://guides.github.com/features/mastering-markdown/">markdown file</a>.
 		This file contains all the data about the experiment that will appear here, organized in an easy computer-reading way.
 		If you aren't familiar with markdown files, we provided an example below.

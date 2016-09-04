@@ -33,7 +33,7 @@
 					<span id="authors">{{ page.authors }}</span>
 				</div>
 				<a href="{{ page.download }}" class="btn m-top-50">Download Experiment</a>
-			</div>		
+			</div>
 
 			<div class="col-md-4">
 				<table id="property_list" class="display" cellspacing="0" width="200px">
@@ -44,7 +44,7 @@
 					    </tr>
 				        <tr>
 				            <td><strong>Repository</strong></td>
-				            <td> <a href="{{ page.repository }}">{{ page.repository }}</a></td>
+				            <td> <a href="{{ page.repository }}">{{ page.repository | truncate: 30   }}</a></td>
 				        </tr>
 				        <tr>
 				            <td><strong>Environment</strong></td>

@@ -4,13 +4,14 @@ layout: default
 ---
 <script type="text/javascript">
     $(document).ready( function () {
+/* ['experiment_visualcheckboard', 'Visual Checkerboard', 'Cameron Craddock', 'VisionEgg', '???'],
+        ['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???'], */
 
     var dataset = [
-    	['experiment_visualcheckboard', 'Visual Checkerboard', 'Cameron Craddock', 'VisionEgg', '???'],
-    	['experiment_breathholding', 'Breath Holding', 'Cameron Craddock', 'VisionEgg', '???'],
-    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock', 'VisionEgg', 'Modulation of DMN, Neurofeedback'],
-    	['experiment_moraldillema', 'Moral Dillema', 'Cameron Craddock', 'PsychoPy', '???'],
-    	['experiment_msit', 'The Multi-Source Interference Task', 'Cameron Craddock ', 'PsychoPy', '???']
+    	['experiment_RTfMRIneurofeedback', 'RTfMRI Neurofeedback', 'Cameron Craddock, Jonathan Lisinski, Stephen M. LaConte', 'VisionEgg', 'Neurofeedback'],
+    	['experiment_moraldilemma', 'Moral Dilemma', 'Clemens C. C. Bauer, Cameron Craddock', 'PsychoPy', 'Moral decision making'],
+    	['experiment_msit', 'The Multi-Source Interference Task', 'Cameron Craddock ', 'PsychoPy', 'Cognitive interference'],
+        ['experiment_rvip', 'The Rapid Visual Information Processing Task', 'Cameron Craddock ', 'PsychoPy', 'Working memory and sustained attention']
     ]
 
 
@@ -45,24 +46,25 @@ layout: default
 <div class="section">
 
 	<div class="container">
-		
+
 		<p class="text-justify">
 			Open Cog Lab is a repository of openly shared computerized experiments for assessing cognitive function.
 			A variety of tasks for assessing different cognitive functions are available for download.
-			As this is a colaborative repository, feel free to share your own experiments!
-		</p>
+			As this is a colaborative repository, feel free to share your own experiments!</p>
+
+        <p class="text-justify">Projects DOIs are indexed in the <a href="https://zenodo.org/collection/user-opencoglabrepository">OpenCogLab Repository Zenodo Community</a>.</p>
 
 	<!-- 			<div class="col-md-2"> <i class="fa fa-share-alt fa-3x"></i></div> -->
-			
+
 
 	<!-- 	<div class="row m-top-50 text-center">
-			
+
 				<div class="col-md-2"> <i class="fa fa-code-fork fa-3x"></i> </div>
 				<div class="col-md-8">
 				<p class="text-justify">
 					Be social and share your own experiments! Help the community lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
-				
+
 			</div>
 		</div> -->
 
