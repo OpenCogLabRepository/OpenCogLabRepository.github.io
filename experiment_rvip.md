@@ -9,7 +9,7 @@ version: 1.0
 published: 2016-09-03
 license: MIT
 dependencies: PyschoPy
-imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
+imgurl: https://raw.githubusercontent.com/ccraddock/RVIP/master/rvip_stim.png
 bibtex: https://raw.githubusercontent.com/ccraddock/rvip/master/rvip.bib
 download: https://zenodo.org/record/61453/files/RVIP-v1.0.0.zip
 ---

@@ -9,7 +9,7 @@ version: 1.0
 published: 2013
 license: MIT
 dependencies: afni real time plugin, RT-functor, visionegg
-imgurl: https://avatars2.githubusercontent.com/u/10687121?v=3&s=200
+imgurl: https://raw.githubusercontent.com/OpenCogLabRepository/RTfMRI-neurofeedback/master/analog_meter_half.png
 bibtex: https://raw.githubusercontent.com/OpenCogLabRepository/RTfMRI-neurofeedback/master/RTfMRIneurofeedback.bib
 download: https://zenodo.org/record/61454/files/RTfMRI-neurofeedback-v1.0.1.zip
 ---
